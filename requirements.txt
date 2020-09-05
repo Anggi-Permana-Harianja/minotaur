@@ -1,0 +1,5 @@
+pandas
+pandas-datareader
+scikit-learn
+beautifulsoup4
+matplotlib
