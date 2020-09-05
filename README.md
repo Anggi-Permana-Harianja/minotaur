@@ -1,2 +1,2 @@
 # minotaur
-Machine Learning Platform for Trading
+Machine Learning tool for trading
