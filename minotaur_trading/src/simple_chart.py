@@ -44,7 +44,6 @@ class Simple_chart():
         df.to_csv(current_dir + '/' + 'dataset' + '/' + filename)
         #ingesting succesful
         print('Ingesting stock data from code: {}'.format(self.stock_code))
-        print('The ingested data saved into minotaur_trading dataset...')
         print('You can access {} dataset within dataset folder created just now'.format(self.stock_code))
 
 

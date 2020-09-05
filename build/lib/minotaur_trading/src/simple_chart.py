@@ -33,14 +33,19 @@ class Simple_chart():
         #saving ingested dataset into ./dataset
         filename = self.stock_code.replace('.', '_')
         current_dir = os.getcwd()
+        #creating the dataset folder
         try:
             os.mkdir(current_dir + '/dataset')
         except FileExistsError:
             pass
+        #replacing with newer dataset if exists, else create
+        if os.path.isfile(current_dir + '/' + 'dataset' + '/' + filename):
+            os.remove(current_dir + '/' + 'dataset' + '/' + filename)
         df.to_csv(current_dir + '/' + 'dataset' + '/' + filename)
+        #ingesting succesful
         print('Ingesting stock data from code: {}'.format(self.stock_code))
         print('The ingested data saved into minotaur_trading dataset...')
-        print('You can access {} dataset by importing minotaur_trading.dataset.{}'.format(self.stock_code, filename))
+        print('You can access {} dataset within dataset folder created just now'.format(self.stock_code))
 
 
         self.df = df

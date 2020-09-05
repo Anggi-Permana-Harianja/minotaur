@@ -3,11 +3,11 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 setuptools.setup(
      name='minotaur-trading',  
-     version='1.4',
+     version='1.5',
      scripts=['minotaur-trading'] ,
      author="Anggi Permana Harianja",
      author_email="permanaharianja@gmail.com",
-     description="Machine Learning Platform for Trading",
+     description="Machine Learning Tool for Trading, please visit https://github.com/Anggi-Permana-Harianja/minotaur-trading for detailed information",
      long_description=long_description,
    long_description_content_type="text/markdown",
      url="https://github.com/Anggi-Permana-Harianja/minotaur-trading",
