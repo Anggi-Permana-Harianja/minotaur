@@ -11,5 +11,4 @@ df = simple.set_ma(100)
 
 print(df.tail())
 
-simple.visualize(df,
-                ['Open', 'Close'])
+simple.visualize(['Open', 'Close'])

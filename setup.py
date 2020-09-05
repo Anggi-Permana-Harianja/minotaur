@@ -3,7 +3,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 setuptools.setup(
      name='minotaur-trading',  
-     version='1.2',
+     version='1.4',
      scripts=['minotaur-trading'] ,
      author="Anggi Permana Harianja",
      author_email="permanaharianja@gmail.com",
