@@ -1,11 +1,12 @@
 README.md
 minotaur-trading
 setup.py
+minotaur_trading/__init__.py
 minotaur_trading.egg-info/PKG-INFO
 minotaur_trading.egg-info/SOURCES.txt
 minotaur_trading.egg-info/dependency_links.txt
 minotaur_trading.egg-info/top_level.txt
-notebooks/__init__.py
-notebooks/examples.py
-src/__init__.py
-src/simple_chart.py
+minotaur_trading/notebooks/__init__.py
+minotaur_trading/notebooks/examples.py
+minotaur_trading/src/__init__.py
+minotaur_trading/src/simple_chart.py

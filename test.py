@@ -1,1 +1,1 @@
-import numpy as np
+from minotaur_trading import Simple_chart
