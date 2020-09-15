@@ -42,37 +42,12 @@ Requirements
 
 Using pandas datareader requires the following packages:
 
-* pandas>=0.23
-* lxml
-* requests>=2.19.0
 * pandas
-
-pandas-datareader
-
-scikit-learn
-
-beautifulsoup4
-
-matplotlib
-
-Building the documentation additionally requires:
-
+* pandas-datareader
+* scikit-learn
+* beautifulsoup4
 * matplotlib
-* ipython
-* requests_cache
-* sphinx
-* pydata_sphinx_theme
 
-Development and testing additionally requires:
-
-* black
-* coverage
-* codecov
-* coveralls
-* flake8
-* pytest
-* pytest-cov
-* wrapt
 
 Install latest development version
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
