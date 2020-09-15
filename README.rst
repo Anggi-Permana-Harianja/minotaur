@@ -5,6 +5,7 @@ minotaur-trading
 Up to date remote data access for pandas, works for multiple versions of pandas.
 
 .. image:: https://img.shields.io/pypi/v/minotaur-trading.svg
+    
     :target: https://pypi.python.org/pypi/minotaur-trading/
 
 .. image:: https://coveralls.io/github/Anggi-Permana-Harianja/minotaur-trading/badge.svg?branch=master
