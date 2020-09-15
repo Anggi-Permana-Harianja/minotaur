@@ -5,11 +5,10 @@ minotaur-trading
 Up to date remote data access for pandas, works for multiple versions of pandas.
 
 .. image:: https://img.shields.io/pypi/v/minotaur-trading.svg
-    
-    :target: https://pypi.python.org/pypi/minotaur-trading/
+    :target: https://pypi.org/project/minotaur-trading/
 
-.. image:: https://coveralls.io/github/Anggi-Permana-Harianja/minotaur-trading/badge.svg?branch=master
-    :target: https://coveralls.io/github/Anggi-Permana-Harianja/minotaur-trading
+.. image:: https://coveralls.io/repos/github/Anggi-Permana-Harianja/minotaur-trading/badge.svg?branch=master
+:target: https://coveralls.io/github/Anggi-Permana-Harianja/minotaur-trading?branch=master
     
 .. image:: https://codecov.io/gh/Anggi-Permana-Harianja/minotaur-trading/branch/master/graph/badge.svg
   :target: https://codecov.io/gh/Anggi-Permana-Harianja/minotaur-trading
@@ -55,12 +54,12 @@ Install latest development version
 
 .. code-block:: shell
 
-   pip install git+https://github.com/pydata/pandas-datareader.git
+   pip install git+https://github.com/Anggi-Permana-Harianja/minotaur-trading.git
 
 or
 
 .. code-block:: shell
 
-   git clone https://github.com/pydata/pandas-datareader.git
-   cd pandas-datareader
+   git clone https://github.com/Anggi-Permana-Harianja/minotaur-trading.git
+   cd minotaur-trading
    python setup.py install
