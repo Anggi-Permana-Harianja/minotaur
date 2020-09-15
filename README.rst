@@ -1,7 +1,7 @@
 
 minotaur-trading
 =================
-Machine learning tool for trading
+Machine learning tool for trading built for non-data scientist to easily applying data science concept into trading knowledge
 
 .. image:: https://img.shields.io/pypi/v/minotaur-trading.svg
     :target: https://pypi.org/project/minotaur-trading/
@@ -21,8 +21,8 @@ Install using ``pip``
 
    pip install minotaur-trading
 
-Usage
------
+Usage Example
+-------------
 
 .. code-block:: python
 
@@ -40,7 +40,7 @@ Documentation
 Requirements
 ~~~~~~~~~~~~
 
-Using pandas datareader requires the following packages:
+Using minotaur-trading requires the following packages:
 
 * pandas
 * pandas-datareader
