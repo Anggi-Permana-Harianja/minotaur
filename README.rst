@@ -8,7 +8,7 @@ Up to date remote data access for pandas, works for multiple versions of pandas.
     :target: https://pypi.org/project/minotaur-trading/
 
 .. image:: https://coveralls.io/repos/github/Anggi-Permana-Harianja/minotaur-trading/badge.svg?branch=master
-:target: https://coveralls.io/github/Anggi-Permana-Harianja/minotaur-trading?branch=master
+    :target: https://coveralls.io/github/Anggi-Permana-Harianja/minotaur-trading?branch=master
     
 .. image:: https://codecov.io/gh/Anggi-Permana-Harianja/minotaur-trading/branch/master/graph/badge.svg
   :target: https://codecov.io/gh/Anggi-Permana-Harianja/minotaur-trading
