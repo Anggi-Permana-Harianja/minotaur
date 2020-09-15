@@ -2,7 +2,7 @@
 minotaur-trading
 =================
 
-Up to date remote data access for pandas, works for multiple versions of pandas.
+Machine learning tool for trading
 
 .. image:: https://img.shields.io/pypi/v/minotaur-trading.svg
     :target: https://pypi.org/project/minotaur-trading/
