@@ -1,7 +1,6 @@
 
 minotaur-trading
 =================
-
 Machine learning tool for trading
 
 .. image:: https://img.shields.io/pypi/v/minotaur-trading.svg
@@ -26,12 +25,13 @@ Usage
 -----
 
 .. code-block:: python
-  from minotaur_trading.src.simple_chart import simple_chart
-  simple = Simple_chart('BBCA.JK')
-  df = simple.ingest()
-  df = simple.set_ma(100)
-  print(df.tail())
-  simple.visualize(df,['Open', 'Close'])
+
+  >>> from minotaur_trading.src.simple_chart import simple_chart
+  >>> simple = Simple_chart('BBCA.JK')
+  >>> df = simple.ingest()
+  >>> df = simple.set_ma(100)
+  >>> print(df.tail())
+  >>> simple.visualize(df,['Open', 'Close'])
 
 Documentation
 -------------
